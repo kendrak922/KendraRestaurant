@@ -1,0 +1,16 @@
+/*
+Primary:#ff9800
+p-light:#ffc947
+p-dark:#c66900
+seconday:
+s-light:
+s-dark:
+*/
+body {
+    background-color:#ff9800;
+   
+}
+h1,
+h2{
+    font-family: 'Comfortaa', cursive;
+}
