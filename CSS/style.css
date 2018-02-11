@@ -2,15 +2,61 @@
 Primary:#ff9800
 p-light:#ffc947
 p-dark:#c66900
-seconday:
-s-light:
-s-dark:
+seconday:#f4511e
+s-light:#ff844c
+s-dark:#b91400
 */
+
 body {
-    background-color:#ff9800;
-   
+    background-color:#ffc947;
+    color: black;
 }
+
 h1,
-h2{
+h2 {
+    text-align: center;
     font-family: 'Comfortaa', cursive;
 }
+h1 {
+    font-size: 48px;
+}
+li {
+    display: inline-block;
+    text-align: center;
+    margin: 0 15px 0 10px;
+}
+.nav{
+border-style: solid;
+border-color: #c66900;
+}
+a {
+    font-size: 36px;
+
+}
+main {
+    font-family: 'Comfortaa', cursive;
+    margin: 25px;
+}
+
+img {
+    margin: 20px;
+    image-orientation: center;
+    border: 3px; 
+    border-color:#c66900;
+    border-style: inset;
+}
+label {
+    display: inline-block;
+    text-align: center;
+}
+/* header */
+header li:first-of-type {
+margin-left: 0 10px;
+}
+nav {
+    text-align: center;
+}
+/* footer styles*/
+footer a {
+    text-align: center;
+    font-size: 64px;
